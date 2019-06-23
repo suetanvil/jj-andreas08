@@ -5,18 +5,20 @@
 *{margin:0; padding:0;}
 
 body{
-font:Verdana,Tahoma,Arial,sans-serif;
-line-height:1.4em;
-text-align:center;
-color:#303030;
-background:#e8eaec;
+    font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 110%;
+    line-height:1.4em;
+    text-align:center;
+    color:#303030;
+    background:#e8eaec;
 }
 
 a{
-color:#467aa7;
-font-weight:bold;
-text-decoration:none;
-background-color:inherit;
+    color:#467aa7;
+    font-weight:bold;
+    text-decoration:none;
+    background-color:inherit;
 }
 
 a:hover{color:#2a5a8a; text-decoration:none; background-color:inherit;}
@@ -48,13 +50,13 @@ blockquote {
 /**************** Header and navigation styles ****************/
 
 #container{
-width:60em;
-margin:20px auto;
-padding:1px 0;
-text-align:left;
-background:#ffffff;
-color:#303030;
-border:2px solid #a0a0a0;
+    width:60em;
+    margin:20px auto;
+    padding:1px 0;
+    text-align:left;
+    background:#ffffff;
+    color:#303030;
+    border:2px solid #a0a0a0;
 }
 
 #header{
@@ -226,12 +228,12 @@ background:#467aa7;
 .important{color:#f02025; background-color:inherit; font-weight:bold;}
 
 .box{
-margin:0 0 20px 0;
-padding:10px;
-border:1px solid #c0c0c0;
-background-color:#fafbfc;
-color:#505050;
-line-height:1.5em;
+    margin:0 0 20px 0;
+    padding:10px;
+    border:1px solid #c0c0c0;
+    background-color:#fafbfc;
+    color:#505050;
+    line-height:1.5em;
 }
 
 /* Nicer formatting for Markdown code blocks.  Stolen from Slidey. */
@@ -256,10 +258,10 @@ pre {
 code {
     width: 93%;  /* needed for IE filter to work */
     opacity: .8;
-    filter: alpha(opacity=80);
 
-    font-family: monospace;
-    font-weight: 700;
+    font-family: Hack, DejaVu, Menlo, "Lucida Console", Monaco, monospace;
+    font-size: 100%;
+    font-weight: 500;
 
     background-color: #eeeeff;  /* Keep in synch with pre */
 }
